@@ -29,28 +29,24 @@ public class Main {
         System.out.println(car2.speed);
 
 
-
         car.applyBrakes(13);
         car2.applyBrakes(13);
         System.out.println(car.speed);
         System.out.println(car2.speed);
 
 
-
         //The Last Things:
         //car = car2;
         /*
-        * Bunun meali artik car2 nin refer ettigi yani point ettigi memoryimdeki
-        * bellek ile car1 imin refer ettigi memorydeki ayrilan yer ayni sey.
-        *
-        * O zaman sorulmasi gereken soru su?
-        * car1 imin onceden refer ettigi bellek adresine ne olacak???
-        * o ayrilan bellek adresi GARBAGE COLLECTION denilen bir supurge tarafindan
-        * temizlenecek...
-        *
-        */
-
-
+         * Bunun meali artik car2 nin refer ettigi yani point ettigi memoryimdeki
+         * bellek ile car1 imin refer ettigi memorydeki ayrilan yer ayni sey.
+         *
+         * O zaman sorulmasi gereken soru su?
+         * car1 imin onceden refer ettigi bellek adresine ne olacak???
+         * o ayrilan bellek adresi GARBAGE COLLECTION denilen bir supurge tarafindan
+         * temizlenecek...
+         *
+         */
 
 
     }
