@@ -10,7 +10,7 @@ public class Main {
                 System.out.println("Good");
                 break;
             case 'C':
-                System.out.println("ehh immm");
+                System.out.println("ehh");
                 break;
             default:
                 System.out.println("Terrible");
